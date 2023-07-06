@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}
+    Ксюша лох
+{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>ТЕБЯ</h1>
+{#        <button class="btn btn-warning"> На страницу про нас</button>#}
+    </div>
+    <img src="{% static 'main/img/you.jpg' %}" height=500px alt="Ксюша" class="center">
+
+{% endblock %}
